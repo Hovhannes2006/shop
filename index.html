@@ -12,7 +12,7 @@
 	<div class="navbar navbar-expand-lg navbar-light bg-info">
 		<div class="container-fluid">
 			<div class="col-md-7 d-md-block d-none">
-          		<a class="navbar-brand col-md-5" href="#">Tel:+374...</a>
+          		<a class="navbar-brand col-md-5" href="#">Free Delivery</a>
           		<a class="navbar-brand col-md-5" href="#">Welcome to our store</a>
         	</div>
 				<form class="col-md-5">
@@ -33,8 +33,8 @@
 			              </select>
 			            </div>
 			            <div class="col-md-4 m-auto d-md-block d-none">
-			              <button type="button" class="btn btn-dark col-md-12">
-			                Wishlist <span class="badge badge-dark bg-danger">9</span>
+			              <button type="button" class="btn btn-dark col-12">
+			               	Profile
 			              </button>  
 			            </div>          
 			          </div>
@@ -48,28 +48,80 @@
           </div>
           <div class="col-md-5 col-auto">
             <div class="row">
-              <form class="col-7 d-none d-md-block">
+              	<form class="col-6 d-none d-md-block">
                           <div class="input-group">
                             <input type="text" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="button-addon2">
                             <div class="input-group-append">
                               <button class="btn btn-outline-secondary" type="button" id="button-addon2">Search</button>
                             </div>
                           </div>
-            </form>
-            <div class="col-md-3 col-auto d-block">
-                    <div class="dropdown">
-                      <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Account
-                      </a>
+	            </form>
+	            <div class="col-md-3 col-auto d-block">
+	            		<!-- Button trigger modal -->
+						<button type="button" class="btn btn-outline-secondary" data-toggle="modal" data-target="#Register">
+						  Registration
+						</button>
 
-                      <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                        <a class="dropdown-item" href="#">Log In</a>
-                        <a class="dropdown-item" href="#">Register</a>
-                        <a class="dropdown-item" href="#">My Orders</a>
-                        <a class="dropdown-item" href="#">Account Settings</a>
-                      </div>
-                    </div>
-                  </div>
+						<!-- Modal -->
+						<div class="modal fade" id="Register" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+						  <div class="modal-dialog modal-dialog-centered" role="document">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <h5 class="modal-title" id="exampleModalCenterTitle">Registration</h5>
+						      </div>
+						      <div class="modal-body">
+									  <input type="text" class="form-control mb-2" placeholder="Name">
+									  <input type="text" class="form-control mb-2" placeholder="Surname">
+									  <input type="text" class="form-control mb-2" placeholder="Email Address">
+									  <hr>
+									  <p class="text-center">Or Register with</p>
+									  <hr>
+										<p class="text-center">
+										  <i class="fab fa-google mr-3" style="font-size: 25px;"></i>
+										  <i class="fab fa-facebook-f mr-3" style="font-size: 25px;"></i>
+										  <i class="fab fa-twitter" style="font-size: 25px;"></i>
+										</p>
+						      </div>
+						      <div class="modal-footer">
+						        <button type="button" class="btn btn-info">Save changes</button>
+						      </div>
+						    </div>
+						  </div>
+						</div>
+	            </div>
+	            <div class="col-md-3 col-auto d-block">
+	            		<!-- Button trigger modal -->
+						<button type="button" class="btn btn-outline-secondary" data-toggle="modal" data-target="#Log">
+						  Log In
+						</button>
+
+						<!-- Modal -->
+						<div class="modal fade" id="Log" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+						  <div class="modal-dialog modal-dialog-centered" role="document">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <h5 class="modal-title" id="exampleModalCenterTitle">Log In</h5>
+						      </div>
+						      <div class="modal-body">
+									  <input type="text" class="form-control mb-2" placeholder="Email Address">
+									  <input type="text" class="form-control mb-2" placeholder="Password">
+									  <hr>
+									  <p class="text-center">Or Register with</p>
+									  <hr>
+										<p class="text-center">
+										  <i class="fab fa-google mr-3" style="font-size: 25px;"></i>
+										  <i class="fab fa-facebook-f mr-3" style="font-size: 25px;"></i>
+										  <i class="fab fa-twitter" style="font-size: 25px;"></i>
+										</p>
+						      </div>
+						      <div class="modal-footer">
+						        <button type="button" class="btn btn-info">Save changes</button>
+						      </div>
+						    </div>
+						  </div>
+						</div>
+	            </div>
+
             </div>
             
           </div>
@@ -152,7 +204,7 @@
 			    <div class="carousel-item active">
 			      	<div class="row bg-warning">
 			      		<div class="col-md-6">
-			      			<img src="https://media.playstation.com/is/image/SCEA/playstation-accessories-ps4-slim-two-column-02-us-07feb17?$facebook$" height="500px">
+			      			<img src="img/playstation4.png" height="500px">
 			      		</div>
 			      		<div class="col-md-6">
 			      			<div class="row" style="position: relative;top: 150px;left: 100px;"> <h2 class="text-secondary">Play Station 4</h2> </div>
@@ -166,7 +218,7 @@
 			    <div class="carousel-item">
 			      <div class="row bg-warning">
 			      		<div class="col-md-6">
-			      			<img src="https://dn.clickbuy.com.vn/uploads/2019/08/avt-rog-phone-2-1.png" height="500px" style="position: relative;left: 150px;">
+			      			<img src="img/asusrog.png" height="500px" style="position: relative;left: 150px;">
 			      		</div>
 			      		<div class="col-md-6">
 			      			<div class="row" style="position: relative;top: 150px;left: 100px;"> <h2 class="text-secondary">ASUS ROG Phone</h2> </div>
@@ -181,7 +233,7 @@
 			      <div class="carousel-item active">
 			      	<div class="row bg-warning">
 			      		<div class="col-md-6">
-			      			<img src="https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_73849085/mobile_786_587_png/APPLE-iPad-Pro-%282020%29-11%22-WiFi---Spacegrijs-128GB" height="500px" style="position: relative;left: 100px;">
+			      			<img src="img/ipadpro.png" height="500px" style="position: relative;left: 100px;">
 			      		</div>
 			      		<div class="col-md-6">
 			      			<div class="row" style="position: relative;top: 150px;left: 100px;"> <h2 class="text-secondary">Ipad PRO 2020</h2> </div>
@@ -212,7 +264,7 @@
 			</div>
 			<div class="row justify-content-around">
 				<div class="card col-md-3 col-12 mb-3">
-  					<a href="#"><img src="https://www.bite.lv/sites/default/files/products/2020-04/apple-iphone-se-64gb-2020-white-2-min.png" class="card-img-top w-100" alt="Iphone SE 2020"></a>	
+  					<a href="#"><img src="img/iphonese.png" class="card-img-top w-100" alt="Iphone SE 2020"></a>	
 					  <div class="card-body">
 					    <h5 class="card-title text-center">Iphone SE 2020</h5>
 					    <p class="card-text text-center text-info" style="text-decoration: line-through;font-size: 25px;"> $450 </p>
@@ -220,7 +272,7 @@
 					  </div>
 				</div>
 				<div class="card col-md-3 col-12 mb-3" >
-  					<a href="#"><img src="https://www.bite.lv/sites/default/files/products/2020-04/apple-iphone-se-64gb-2020-white-2-min.png" class="card-img-top w-100" alt="Iphone SE 2020"></a>	
+  					<a href="#"><img src="img/iphonese.png" class="card-img-top w-100" alt="Iphone SE 2020"></a>	
 					  <div class="card-body">
 					    <h5 class="card-title text-center">Iphone SE 2020</h5>
 					    <p class="card-text text-center text-info" style="text-decoration: line-through;font-size: 25px;"> $450 </p>
@@ -228,7 +280,7 @@
 					  </div>
 				</div>
 				<div class="card col-md-3 col-12 mb-3" >
-  					<a href="#"><img src="https://www.bite.lv/sites/default/files/products/2020-04/apple-iphone-se-64gb-2020-white-2-min.png" class="card-img-top w-100" alt="Iphone SE 2020"></a>	
+  					<a href="#"><img src="img/iphonese.png" class="card-img-top w-100" alt="Iphone SE 2020"></a>	
 					  <div class="card-body">
 					    <h5 class="card-title text-center">Iphone SE 2020</h5>
 					    <p class="card-text text-center text-info" style="text-decoration: line-through;font-size: 25px;"> $450 </p>
@@ -246,21 +298,21 @@
 			</div>
 			<div class="row justify-content-around">
 				<div class="card col-md-2 col-12 mb-3" >
-  					<a href="#"><img src="https://www.bite.lv/sites/default/files/products/2020-04/apple-iphone-se-64gb-2020-white-2-min.png" class="card-img-top" alt="Iphone SE 2020"></a>	
+  					<a href="#"><img src="img/iphonese.png" class="card-img-top" alt="Iphone SE 2020"></a>	
 					  <div class="card-body">
 					    <h5 class="card-title text-center">Smartphones</h5>
 					    <button type="button" class="btn btn-outline-danger col-md-12 d-block">Go To</button>
 					  </div>
 				</div>
 				<div class="card col-md-2 col-12 mb-3" >
-  					<a href="#"><img src="https://froggaming.dk/wp-content/uploads/2019/09/aerocool-cyloon-froggaming-gaming-pc-gamer-computer-frog-game.png" class="card-img-top w-100" alt="Iphone SE 2020"></a>	
+  					<a href="#"><img src="img/pc.png" class="card-img-top w-100" alt="Iphone SE 2020"></a>	
 					  <div class="card-body">
 					    <h5 class="card-title text-center">Computers</h5>
 					    <button type="button" class="btn btn-outline-danger col-md-12 d-block">Go To</button>
 					  </div>
 				</div>
 				<div class="card col-md-2 col-12 mb-3" >
-  					<a href="laptop.html"><img src="https://images-na.ssl-images-amazon.com/images/I/71L2iBSyyOL._AC_SL1500_.jpg" class="card-img-top w-100 mt-5" alt=""></a>	
+  					<a href="laptop.html"><img src="img/macbook.jpg" class="card-img-top w-100 mt-5" alt=""></a>	
 					  <div class="card-body">
 					    <h5 class="card-title text-center mt-4">Laptops</h5>
 					    	<a href="laptop.html" style="text-decoration: none;">
@@ -269,14 +321,14 @@
 					  </div>
 				</div>
 				<div class="card col-md-2 col-12 mb-3" >
-  					<a href="#"><img src="https://www.jbl.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw81af9967/JBL_Boombox_Black_Hero-1605x1605.PNG" class="card-img-top w-100" alt="Iphone SE 2020"></a>	
+  					<a href="#"><img src="img/jbl.webp" class="card-img-top w-100" alt="Iphone SE 2020"></a>	
 					  <div class="card-body">
 					    <h5 class="card-title text-center">Speakers</h5>
 					    <button type="button" class="btn btn-outline-danger col-md-12 d-block">Go To</button>
 					  </div>
 				</div>
 				<div class="card col-md-2 col-12 mb-3" >
-  					<a href="#"><img src="https://www.canon.ru/media/eos_range_tcm203-1266213.png" class="card-img-top mt-5" alt="Iphone SE 2020"></a>	
+  					<a href="#"><img src="img/canon.png" class="card-img-top mt-5" alt="Iphone SE 2020"></a>	
 					  <div class="card-body">
 					    <h5 class="card-title text-center mt-4">Cameras</h5>
 					    <button type="button" class="btn btn-outline-danger col-md-12 d-block">Go To</button>
