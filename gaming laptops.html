@@ -15,7 +15,7 @@
         <div class="navbar navbar-expand-lg navbar-light bg-info">
     <div class="container-fluid">
       <div class="col-md-7 d-md-block d-none">
-              <a class="navbar-brand col-md-5" href="#">Tel:+374...</a>
+              <a class="navbar-brand col-md-5" href="#">Free Delivery</a>
               <a class="navbar-brand col-md-5" href="#">Welcome to our store</a>
           </div>
         <form class="col-md-5">
@@ -36,50 +36,104 @@
                     </select>
                   </div>
                   <div class="col-md-4 m-auto d-md-block d-none">
-                    <button type="button" class="btn btn-dark col-md-12">
-                      Wishlist <span class="badge badge-dark bg-danger">9</span>
-                    </button>  
+                    <a href="profile.html">
+                        <button type="button" class="btn btn-dark col-12">
+                          Profile
+                        </button> 
+                    </a> 
                   </div>          
                 </div>
             </form>
     </div>
   </div>
+
         <div class="navbar navbar-expand-md navbar-dark bg-dark">
                   <div class="container-fluid">
-      <div class="col-md-4 col-auto d-block">
-              <a class="navbar-brand" href="index.html"> Online shop </a>
-          </div>
-          <div class="col-md-5 col-auto">
-            <div class="row">
-              <form class="col-7 d-none d-md-block">
+                <div class="col-auto d-block">
+                    <a class="navbar-brand" href="index.html"> Online shop </a>
+                  </div>
+          <div class="col-auto">
+            <div class="row justify-content-xs-center">
+                <form class="col-auto d-none d-md-block">
                           <div class="input-group">
                             <input type="text" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="button-addon2">
                             <div class="input-group-append">
                               <button class="btn btn-outline-secondary" type="button" id="button-addon2">Search</button>
                             </div>
                           </div>
-            </form>
-            <div class="col-md-3 col-auto d-block">
-                    <div class="dropdown">
-                      <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Account
-                      </a>
+              </form>
+              <div class="col-auto d-block" style="padding-left: 0 !important;">
+                  <!-- Button trigger modal -->
+            <button type="button" class="btn btn-outline-secondary" data-toggle="modal" data-target="#Register">
+              Registration
+            </button>
 
-                      <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                        <a class="dropdown-item" href="#">Log In</a>
-                        <a class="dropdown-item" href="#">Register</a>
-                        <a class="dropdown-item" href="#">My Orders</a>
-                        <a class="dropdown-item" href="#">Account Settings</a>
-                      </div>
-                    </div>
+            <!-- Modal -->
+            <div class="modal fade" id="Register" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalCenterTitle">Registration</h5>
                   </div>
+                  <div class="modal-body">
+                    <input type="text" class="form-control mb-2" placeholder="Name">
+                    <input type="text" class="form-control mb-2" placeholder="Surname">
+                    <input type="text" class="form-control mb-2" placeholder="Email Address">
+                    <hr>
+                    <p class="text-center">Or Register with</p>
+                    <hr>
+                    <p class="text-center">
+                      <i class="fab fa-google mr-3" style="font-size: 25px;"></i>
+                      <i class="fab fa-facebook-f mr-3" style="font-size: 25px;"></i>
+                      <i class="fab fa-twitter" style="font-size: 25px;"></i>
+                    </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-info">Save changes</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+              </div>
+              <div class="col-auto d-block" style="padding-left: 0 !important;">
+                  <!-- Button trigger modal -->
+            <button type="button" class="btn btn-outline-secondary" data-toggle="modal" data-target="#Log">
+              Log In
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="Log" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalCenterTitle">Log In</h5>
+                  </div>
+                  <div class="modal-body">
+                    <input type="text" class="form-control mb-2" placeholder="Email Address">
+                    <input type="text" class="form-control mb-2" placeholder="Password">
+                    <hr>
+                    <p class="text-center">Or Register with</p>
+                    <hr>
+                    <p class="text-center">
+                      <i class="fab fa-google mr-3" style="font-size: 25px;"></i>
+                      <i class="fab fa-facebook-f mr-3" style="font-size: 25px;"></i>
+                      <i class="fab fa-twitter" style="font-size: 25px;"></i>
+                    </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-info">Save changes</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+              </div>
+
             </div>
             
           </div>
         
     </div>
-        </div>
-    
+        </div>    
         </div>
   <nav class="navbar navbar-expand-md navbar-light bg-primary mb-3">
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
