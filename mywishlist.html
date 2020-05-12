@@ -6,7 +6,7 @@
 
     <script src="https://kit.fontawesome.com/f6b55d19e8.js" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-	<title>Profile</title>
+	<title>Profile | Profile Wishlist</title>
 </head>
 <body>
 	<!-- Header -->
@@ -198,7 +198,8 @@
 	        		<nav aria-label="breadcrumb">
 	                	<ol class="breadcrumb bg-dark">
 	                  	<li class="breadcrumb-item"><a href="index.html">Home</a></li>
-	                  	<li class="breadcrumb-item active" aria-current="page">Profile</li>
+	                  	<li class="breadcrumb-item"><a href="profile.html">Profile</a></li>
+	                  	<li class="breadcrumb-item active" aria-current="page">Wishlist</li>
 	                	</ol>
 	              	</nav>
           		</div>
@@ -207,15 +208,14 @@
 
         				<div class="container-fluid mb-3">
         						<div class="col-12">
-			        				<h2 class="text-center text-danger">Profile</h2>
+			        				<h2 class="text-center text-warning">Profile Settings</h2>
 			        			</div>
 			        	</div>
 
-   					<nav class="navbar navbar-expand-md navbar-light bg-primary mb-3">
+   					<nav class="navbar navbar-expand-md navbar-warning bg-dark mb-3">
 			          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Acc" aria-controls="Acc" aria-expanded="false" aria-label="Toggle navigation">
 			            <span class="navbar-toggler-icon"></span>
 			          </button>
-			          <div class="collapse navbar-collapse" id="Acc">
 			            <ul class="navbar-nav mr-auto col-12 d-flex justify-content-around">
 			              <li class="nav-item">
 			                <a class="nav-link" href="myorders.html">
@@ -237,98 +237,60 @@
 			                  Card
 			                </a>
 			              </li>
-			            </ul>  
-			          </div>
+			            </ul>
 			        </nav>
 
-			        <div class="container-fluid my-5">
-			        	<div class="row">
-			        		<div class="col-12">
-				        			<div class="row">
-					        				<div class="col-auto mt-3">
-					        					<i class="fas fa-user" style="font-size: 50px;"></i>
-					        				</div>
-					        				<div class="col-8">
-					        					<p>Name Surname</p>
-					        				<h2>Hovhannes Nargizyan</h2><hr>
-				        			</div>
-			        				</div>
-			        			<p>Address</p>
-			        			<h4>Armenia, Yerevan, Nor Nork district, Moldovakan 3 street</h4>
-			        			<p>Date of birth</p>
-			        			<h4 class="mb-3">10.06.2006</h4>
-			        		</div>
-			        	</div>
-			    	</div>
-
 			    	<div class="container-fluid mb-3">
-			    		<div class="row justify-content-center mb-3">
-			        		<div class="col-7">
-			        			<table class="table table-bordered">
-								  <thead>
-								  	<tr><th colspan="4" class="text-center"> My Orders </th></tr>
-								    <tr>
-								      <th scope="col">#</th>
-								      <th scope="col">Date</th>
-								      <th scope="col">Price</th>
-								    </tr>
-								  </thead>
-								  <tbody>
-								    <tr>
-								      <th scope="row">1</th>
-								      <td>05.05.2020</td>
-								      <td>$ 399.99</td>
-								    </tr>
-								    <tr>
-								      <th scope="row">2</th>
-								      <td>28.04.2020</td>
-								      <td>$ 416.00</td>
-								    </tr>
-								    <tr>
-								      <th scope="row">3</th>
-								      <td>29.02.2020</td>
-								      <td>$ 81.99</td>
-								    </tr>
-								  </tbody>
-								</table>
-								<a href="myorders.html"><button class="btn btn-outline-danger">See more</button></a>
-			        		</div>
-			        		
-			    		</div>
 			    		<div class="row justify-content-center">
-				        			<div class="col-7">
+				        			<div class="col-8">
 				        			<table class="table table-bordered">
 									  <thead>
-									  	<tr><th colspan="3" class="text-center"> My Wishlist </th></tr>
+									  	<tr><th colspan="4" class="text-center"> My Wishlist </th></tr>
 									    <tr>
-									      <th scope="col">#</th>
-									      <th scope="col">Name</th>
-									      <th scope="col">Price</th>
+									      	<th scope="col">#</th>
+									      	<th scope="col">Name</th>
+									      	<th scope="col">Price</th>
+									      	<th scope="col"></th>
 									    </tr>
 									  </thead>
 									  <tbody>
 									    <tr>
-									      <th scope="row">1</th>
-									      <td>MacBook Pro</td>
-									      <td>$ 2621.88</td>
+									      	<th scope="row">1</th>
+									      	<td>MacBook Pro</td>
+									      	<td>$ 2621.88</td>
+									      	<td><a href="card.html"><button class="btn btn-dark">Add to Card</button></a></td>
 									    </tr>
 									    <tr>
-									      <th scope="row">2</th>
-									      <td>JBL Boombox</td>
-									      <td>$ 399.55</td>
+									      	<th scope="row">2</th>
+									      	<td>JBL Boombox</td>
+									      	<td>$ 399.55</td>
+									      	<td><a href="card.html"><button class="btn btn-dark">Add to Card</button></a></td>
 									    </tr>
 									    <tr>
-									      <th scope="row">3</th>
-									      <td>Iphone 11 pro</td>
-									      <td>$ 1149.00</td>
+										    <th scope="row">3</th>
+										    <td>Iphone 11 pro</td>
+										    <td>$ 1149.00</td>
+										    <td><a href="card.html"><button class="btn btn-dark">Add to Card</button></a></td>
+									    </tr>
+									    <tr>
+									    	<th scope="row">4</th>
+									    	<td>Play Station 4 Slim 1TB</td>
+									    	<td>$ 398.70</td>
+									    	<td><a href="card.html"><button class="btn btn-dark">Add to Card</button></a></td>
+									    </tr>
+									    <tr>
+									    	<th scope="row">5</th>
+									    	<td>Canon EOS M50</td>
+									    	<td>$ 499.00</td>
+									    	<td><a href="card.html"><button class="btn btn-dark">Add to Card</button></a></td>
 									    </tr>
 									  </tbody>
 									</table>
-									<a href="mywishlist.html"><button class="btn btn-outline-danger">See more</button></a>
 				        		</div>
 			        		</div>
 			    	</div>
-        <!-- Footer -->
+
+			        <!-- Footer -->
         <div class="container-fluid bg-dark">
 			<div class="row"> 
 				<div class="col-md-5 d-md-block d-none"></div>
